@@ -1,0 +1,177 @@
+html {
+  font-size: 15px;
+  box-sizing: border-box;
+  min-height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #c9d3be;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 575px) {
+  .mobile {
+    display: inline;
+  }
+  .desktop {
+    display: none;
+  }
+  .logo {
+    width: 100px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .mobile {
+    display: inline;
+  }
+  .desktop {
+    display: none;
+  }
+  .logo {
+    width: 100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navitem {
+    padding-right: 20px;
+  }
+  .mobile {
+    display: inline;
+  }
+  .desktop {
+    display: none;
+  }
+  .logo {
+    width: 150px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner-pack {
+    position: relative;
+    background: url("/images/banner1.png") no-repeat center;
+    background-size: cover;
+    height: 600px;
+  }
+  .banner-title {
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 30px;
+  }
+  .banner-title h1 {
+    font-size: 46px;
+  }
+  .banner-title p {
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: inline;
+  }
+  .logo {
+    width: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner-pack {
+    position: relative;
+    background: url("/images/banner1.png") no-repeat center;
+    background-size: cover;
+    height: 600px;
+  }
+  .banner-title {
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 30px;
+  }
+  .banner-title h1 {
+    font-size: 46px;
+  }
+  .banner-title p {
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: inline;
+  }
+  .logo {
+    width: 150px;
+  }
+}
+
+h1 {
+  font-size: 26px;
+}
+.c-ban1 {
+  background: #408cbf;
+  padding: 20px;
+  border-radius: 5px;
+}
+.c-ban2 {
+  background: #408cbf;
+  padding: 20px;
+  border-radius: 5px;
+}
+.c-black {
+  background: #121336;
+  padding: 20px;
+  border-radius: 5px;
+}
+.f-darkbg {
+  background: #434242;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+.take-class-btn {
+  background: #505050;
+  color: white;
+  margin-top: 10px;
+}
+
+.head-title {
+  font-family: "Chewy", cursive;
+  font-size: 60px;
+}
+.head-title2 {
+  font-family: "Chewy", cursive;
+  font-size: 45px;
+}
+.tips {
+  padding: 10px 15px;
+  color: white;
+  font-size: 21px;
+  border-radius: 100px;
+  font-family: "Chewy", cursive;
+}
+.cat-title {
+  font-family: "Chewy", cursive;
+  font-size: 25px;
+}
+
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  display: flex;
+  justify-content: center;
+}
